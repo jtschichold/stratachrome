@@ -58,7 +58,7 @@ export const InternalAbout: React.FunctionComponent<
                         </div>
                         <div className="about-text">
                             <h3>Pan(w)achrome</h3>
-                            <h5>Version 0.8.0.0</h5>
+                            <h5>Version 0.8.0-beta.1</h5>
                             <h5>
                                 Copyright &copy; 2020 Luigi Mori
                                 &lt;panwachrome@isidora.org&gt;
