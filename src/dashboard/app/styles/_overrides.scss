@@ -1,0 +1,107 @@
+$scheme-head-background: linear-gradient(
+    to right,
+    lighten(#232526, 10%),
+    lighten(#414345, 10%)
+);
+
+.navbar {
+    border-radius: 0 !important;
+    background: $scheme-head-background;
+}
+
+.column {
+    min-width: 820px;
+}
+
+.modal-card-head {
+    // background: linear-gradient(to right, lighten(#232526, 2%), lighten(#414345, 2%));
+    & .modal-card-title {
+        font-size: 15px;
+        font-weight: normal;
+        font-variation-settings: "wght" 450;
+    }
+
+    & .delete.is-medium {
+        background-color: $link;
+
+        &::after {
+            width: 1px;
+            background-color: $link-invert;
+        }
+        &::before {
+            height: 1px;
+            background-color: $link-invert;
+        }
+
+        &:hover {
+            background-color: $link-hover;
+        }
+    }
+}
+
+.modal-card-foot {
+    justify-content: flex-end;
+    padding: 10px;
+}
+
+html {
+    background: linear-gradient(
+        to right,
+        $main-gradient-start,
+        $main-gradient-end
+    );
+    overflow-y: hidden;
+}
+
+.card {
+    background: linear-gradient(
+        to right,
+        $card-gradient-start,
+        $card-gradient-end
+    );
+    box-shadow: 0 0.5em 1em -0.125em rgba(#0f2027, 0.2),
+        0 0px 0 1px rgba(#0f2027, 0.02);
+    border: none;
+
+    & .card-header {
+        background: $scheme-head-background;
+    }
+}
+
+.has-text-weight-semibold {
+    font-weight: normal !important;
+    font-variation-settings: "wght" 450 !important;
+}
+
+.card-header-title {
+    font-size: 15px;
+    font-variation-settings: "wght" 450;
+    font-weight: normal;
+}
+
+.table th {
+    font-weight: normal;
+    font-variation-settings: "wght" 500;
+}
+
+td a {
+    text-decoration: underline;
+}
+
+label.label {
+    font-variation-settings: "wght" 450;
+    font-weight: normal;
+}
+
+.modal {
+    display: flex;
+    visibility: hidden;
+
+    &.is-active {
+        visibility: visible;
+    }
+}
+
+.modal-background {
+    backdrop-filter: blur(6px);
+}

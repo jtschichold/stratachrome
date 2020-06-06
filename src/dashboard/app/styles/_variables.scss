@@ -1,0 +1,101 @@
+@use "sass:list";
+
+$fullhd: 1920px;
+
+$radius-small: 1px;
+
+$primary: #2e4256;
+$link: #b6ff66;
+$link-hover: lighten($link, 10%);
+$link-invert: #232526;
+$link-focus: $link;
+$link-focus-border: $link;
+
+$button-focus-color: $text;
+$button-focus-border-color: $link-focus-border;
+
+$danger: #ff4961;
+$success: #2fdf75;
+$success-invert: $link-invert;
+$warning: #ffd534;
+$warning-invert: $link-invert;
+
+$family-sans-serif: "Titillium Web Var", "Open Sans", "Helvetica", sans-serif;
+
+// for progressive charts
+// $sequential-palette: #016c59,#1c9099,#67a9cf,#bdc9e1,#f6eff7;
+$sequential-palette: #2e4256, #799f0c, #ffe000;
+
+// for charts, each serie has one of these colors
+$qualitative-palette1: #904e95, #e96443;
+$qualitative-palette2: #225ea8, #41b6c4, #a1dab4, #ffffcc;
+$qualitative-palette3: #ef629f, #eecda3;
+
+// main gradient run from start to end
+$main-gradient-start: #232526;
+$main-gradient-middle: #323435; // via chroma.js
+$main-gradient-end: #414345;
+$main-gradient-start-light: lighten($main-gradient-start, 10%);
+$card-gradient-start: lighten($main-gradient-start, 2%);
+$card-gradient-end: lighten($main-gradient-end, 2%);
+
+$body-size: 14px;
+$body-background-color: $main-gradient-start;
+
+$scheme-head-background: linear-gradient(
+    to right,
+    lighten($main-gradient-start, 10%),
+    lighten($main-gradient-end, 10%)
+);
+
+$label-weight: 600;
+
+$input-radius: $radius-small;
+$input-background-color: $grey-dark;
+
+$navbar-background-color: lighten($main-gradient-start, 10%);
+$navbar-dropdown-radius: $radius-small;
+$navbar-dropdown-background-color: lighten($main-gradient-start, 10%);
+$navbar-dropdown-item-hover-color: $link-hover;
+$navbar-item-hover-color: $link-hover;
+$navbar-breakpoint: 0px; // desktop only
+
+$menu-item-hover-background-color: $primary;
+$menu-label-font-size: 1em;
+$menu-label-color: #ddd;
+
+$table-background-color: transparent;
+$table-row-hover-background-color: $primary;
+
+$card-header-background-color: lighten($main-gradient-start, 10%);
+$card-background-color: $main-gradient-start;
+$card-header-weight: 600; // semibold
+
+$modal-card-head-padding: 20px 20px 10px 20px;
+$modal-card-head-radius: $radius-small;
+$modal-card-foot-radius: $radius-small;
+$modal-card-head-background-color: $grey-darker;
+$modal-card-head-border-bottom: none;
+$modal-card-foot-border-top: 1px solid $modal-card-head-background-color;
+$modal-background-background-color: transparent;
+
+$progress-bar-background-color: lighten($main-gradient-start, 10%);
+$progress-value-background-color: nth($sequential-palette, 1);
+$progress-border-radius: $radius-small;
+
+$notification-radius: $radius-small;
+
+$dropdown-content-background-color: lighten($main-gradient-end, 12%);
+$dropdown-content-shadow: 0 0.5em 1em -0.125em rgba(#0f2027, 0.2),
+    0 0px 0 1px rgba(#0f2027, 0.02);
+
+$button-focus-box-shadow-size: darken($link, 50%);
+
+$grid-column-width: 500px;
+
+$sidebar-breakpoint: 1280px;
+$sidebar-width: 240px;
+$sidebar-padding: 2.5rem 0.85rem 2.5rem 0.85rem;
+
+$bulmaswatch-import-font: false;
+$fa-font-path: "/fonts";

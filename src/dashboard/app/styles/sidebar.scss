@@ -1,0 +1,69 @@
+@mixin lt-desktop {
+    @media (max-width: #{$sidebar-breakpoint - 1px}) {
+        @content;
+    }
+}
+
+@mixin desktop {
+    @media (min-width: #{$sidebar-breakpoint}) {
+        @content;
+    }
+}
+
+@mixin sidebar-menu($padding, $width, $position, $zindex) {
+    padding: $padding;
+    background-color: transparent;
+    width: $width;
+    z-index: $zindex;
+    overflow-y: auto;
+    height: 100%;
+
+    position: $position;
+    margin-left: -$width;
+    // transform: translateX(-100%);
+    transition: margin-left 0.3s ease;
+
+    & .menu-list > li {
+        white-space: nowrap;
+    }
+
+    & .menu-label {
+        margin-bottom: 0;
+    }
+
+    &.is-active {
+        z-index: auto;
+        position: relative;
+        margin-left: 0;
+    }
+}
+
+@include desktop {
+    .is-sidebar-menu {
+        @include sidebar-menu($sidebar-padding, $sidebar-width, relative, auto);
+
+        &.is-active-desktop {
+            // transform: translateX(0);
+            margin-left: 0;
+        }
+    }
+
+    .navbar-brand > a.navbar-burger {
+        display: none;
+    }
+}
+
+@include lt-desktop {
+    .is-sidebar-menu {
+        @include sidebar-menu($sidebar-padding, $sidebar-width, absolute, 20);
+
+        &.is-active-lt-desktop {
+            background-color: rgba($grey-darker, 0.95);
+            margin-left: 0;
+        }
+    }
+
+    .navbar-brand > a.navbar-burger {
+        display: block;
+    }
+}

@@ -1,0 +1,374 @@
+
+<result>
+  <resource-monitor>
+    <data-processors>
+      <dp0>
+        <week>
+          <cpu-load-average>
+            <entry>
+              <coreid>0</coreid>
+              <value>0,0,0,0,0,0,0,0,0,0,0,0,0</value>
+            </entry>
+            <entry>
+              <coreid>1</coreid>
+              <value>0,0,0,0,0,0,0,0,0,0,0,0,0</value>
+            </entry>
+            <entry>
+              <coreid>2</coreid>
+              <value>1,1,1,1,1,1,0,0,0,0,0,0,0</value>
+            </entry>
+            <entry>
+              <coreid>3</coreid>
+              <value>0,0,0,0,0,0,0,0,0,0,0,0,0</value>
+            </entry>
+          </cpu-load-average>
+          <task/>
+          <cpu-load-maximum>
+            <entry>
+              <coreid>0</coreid>
+              <value>0,0,0,0,0,0,0,0,0,0,0,0,0</value>
+            </entry>
+            <entry>
+              <coreid>1</coreid>
+              <value>15,12,16,17,12,24,0,0,0,0,0,0,0</value>
+            </entry>
+            <entry>
+              <coreid>2</coreid>
+              <value>13,11,10,14,9,14,0,0,0,0,0,0,0</value>
+            </entry>
+            <entry>
+              <coreid>3</coreid>
+              <value>0,0,0,0,0,0,0,0,0,0,0,0,0</value>
+            </entry>
+          </cpu-load-maximum>
+          <resource-utilization>
+            <entry>
+              <name>session (average)</name>
+              <value>0,0,0,0,0,0,0,0,0,0,0,0,0</value>
+            </entry>
+            <entry>
+              <name>session (maximum)</name>
+              <value>1,1,1,0,1,0,0,0,0,0,0,0,0</value>
+            </entry>
+            <entry>
+              <name>packet buffer (average)</name>
+              <value>0,0,0,0,0,0,0,0,0,0,0,0,0</value>
+            </entry>
+            <entry>
+              <name>packet buffer (maximum)</name>
+              <value>0,0,0,0,0,0,0,0,0,0,0,0,0</value>
+            </entry>
+            <entry>
+              <name>packet descriptor (average)</name>
+              <value>0,0,0,0,0,0,0,0,0,0,0,0,0</value>
+            </entry>
+            <entry>
+              <name>packet descriptor (maximum)</name>
+              <value>0,0,0,0,0,0,0,0,0,0,0,0,0</value>
+            </entry>
+            <entry>
+              <name>packet descriptor (on-chip) (average)</name>
+              <value>2,2,2,2,2,2,0,0,0,0,0,0,0</value>
+            </entry>
+            <entry>
+              <name>packet descriptor (on-chip) (maximum)</name>
+              <value>4,7,3,3,3,3,0,0,0,0,0,0,0</value>
+            </entry>
+          </resource-utilization>
+        </week>
+        <second>
+          <cpu-load-average>
+            <entry>
+              <coreid>0</coreid>
+              <value>0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0</value>
+            </entry>
+            <entry>
+              <coreid>1</coreid>
+              <value>0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0</value>
+            </entry>
+            <entry>
+              <coreid>2</coreid>
+              <value>1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1</value>
+            </entry>
+            <entry>
+              <coreid>3</coreid>
+              <value>0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0</value>
+            </entry>
+          </cpu-load-average>
+          <task>
+            <pktlog_forwarding>1%</pktlog_forwarding>
+            <flow_lookup>1%</flow_lookup>
+            <flow_fastpath>1%</flow_fastpath>
+            <flow_np>1%</flow_np>
+            <aho_result>1%</aho_result>
+            <zip_result>1%</zip_result>
+            <flow_host>1%</flow_host>
+            <flow_forwarding>1%</flow_forwarding>
+            <module_internal>1%</module_internal>
+            <flow_ctrl>1%</flow_ctrl>
+            <lwm>0%</lwm>
+            <flow_slowpath>1%</flow_slowpath>
+            <dfa_result>1%</dfa_result>
+            <nac_result>1%</nac_result>
+            <flow_mgmt>0%</flow_mgmt>
+          </task>
+          <cpu-load-maximum>
+            <entry>
+              <coreid>0</coreid>
+              <value>0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0</value>
+            </entry>
+            <entry>
+              <coreid>1</coreid>
+              <value>0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0</value>
+            </entry>
+            <entry>
+              <coreid>2</coreid>
+              <value>1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1</value>
+            </entry>
+            <entry>
+              <coreid>3</coreid>
+              <value>0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0</value>
+            </entry>
+          </cpu-load-maximum>
+          <resource-utilization>
+            <entry>
+              <name>session</name>
+              <value>0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0</value>
+            </entry>
+            <entry>
+              <name>packet buffer</name>
+              <value>0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0</value>
+            </entry>
+            <entry>
+              <name>packet descriptor</name>
+              <value>0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0</value>
+            </entry>
+            <entry>
+              <name>packet descriptor (on-chip)</name>
+              <value>2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2</value>
+            </entry>
+          </resource-utilization>
+        </second>
+        <hour>
+          <cpu-load-average>
+            <entry>
+              <coreid>0</coreid>
+              <value>0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0</value>
+            </entry>
+            <entry>
+              <coreid>1</coreid>
+              <value>0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0</value>
+            </entry>
+            <entry>
+              <coreid>2</coreid>
+              <value>1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,2,1,1,1,1,1</value>
+            </entry>
+            <entry>
+              <coreid>3</coreid>
+              <value>0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0</value>
+            </entry>
+          </cpu-load-average>
+          <task/>
+          <cpu-load-maximum>
+            <entry>
+              <coreid>0</coreid>
+              <value>0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0</value>
+            </entry>
+            <entry>
+              <coreid>1</coreid>
+              <value>5,5,4,5,2,3,2,2,4,5,1,1,1,1,3,9,5,4,5,12,4,3,4,8</value>
+            </entry>
+            <entry>
+              <coreid>2</coreid>
+              <value>7,5,5,5,4,4,3,3,5,6,2,2,2,2,3,7,4,5,5,8,6,4,5,6</value>
+            </entry>
+            <entry>
+              <coreid>3</coreid>
+              <value>0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0</value>
+            </entry>
+          </cpu-load-maximum>
+          <resource-utilization>
+            <entry>
+              <name>session (average)</name>
+              <value>0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0</value>
+            </entry>
+            <entry>
+              <name>session (maximum)</name>
+              <value>0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0</value>
+            </entry>
+            <entry>
+              <name>packet buffer (average)</name>
+              <value>0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0</value>
+            </entry>
+            <entry>
+              <name>packet buffer (maximum)</name>
+              <value>0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0</value>
+            </entry>
+            <entry>
+              <name>packet descriptor (average)</name>
+              <value>0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0</value>
+            </entry>
+            <entry>
+              <name>packet descriptor (maximum)</name>
+              <value>0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0</value>
+            </entry>
+            <entry>
+              <name>packet descriptor (on-chip) (average)</name>
+              <value>2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2</value>
+            </entry>
+            <entry>
+              <name>packet descriptor (on-chip) (maximum)</name>
+              <value>2,3,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,3</value>
+            </entry>
+          </resource-utilization>
+        </hour>
+        <minute>
+          <cpu-load-average>
+            <entry>
+              <coreid>0</coreid>
+              <value>0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0</value>
+            </entry>
+            <entry>
+              <coreid>1</coreid>
+              <value>0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0</value>
+            </entry>
+            <entry>
+              <coreid>2</coreid>
+              <value>1,1,1,1,1,2,1,1,1,1,2,2,1,1,2,1,1,1,1,1,1,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,2,2</value>
+            </entry>
+            <entry>
+              <coreid>3</coreid>
+              <value>0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0</value>
+            </entry>
+          </cpu-load-average>
+          <task/>
+          <cpu-load-maximum>
+            <entry>
+              <coreid>0</coreid>
+              <value>0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0</value>
+            </entry>
+            <entry>
+              <coreid>1</coreid>
+              <value>1,1,1,1,2,1,1,1,1,1,1,2,1,1,1,0,1,0,1,0,3,4,2,0,0,1,0,0,1,0,1,0,0,0,1,1,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,1,0,0,0,1,1,1,2,1</value>
+            </entry>
+            <entry>
+              <coreid>2</coreid>
+              <value>2,2,2,2,3,2,2,2,2,2,2,2,2,2,3,1,2,1,2,1,3,4,3,2,1,2,1,1,2,1,2,1,2,1,2,2,1,2,2,1,2,1,1,2,2,2,2,1,1,1,2,2,1,1,2,3,2,2,2,3</value>
+            </entry>
+            <entry>
+              <coreid>3</coreid>
+              <value>0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0</value>
+            </entry>
+          </cpu-load-maximum>
+          <resource-utilization>
+            <entry>
+              <name>session (average)</name>
+              <value>0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0</value>
+            </entry>
+            <entry>
+              <name>session (maximum)</name>
+              <value>0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0</value>
+            </entry>
+            <entry>
+              <name>packet buffer (average)</name>
+              <value>0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0</value>
+            </entry>
+            <entry>
+              <name>packet buffer (maximum)</name>
+              <value>0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0</value>
+            </entry>
+            <entry>
+              <name>packet descriptor (average)</name>
+              <value>0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0</value>
+            </entry>
+            <entry>
+              <name>packet descriptor (maximum)</name>
+              <value>0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0</value>
+            </entry>
+            <entry>
+              <name>packet descriptor (on-chip) (average)</name>
+              <value>2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2</value>
+            </entry>
+            <entry>
+              <name>packet descriptor (on-chip) (maximum)</name>
+              <value>2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2</value>
+            </entry>
+          </resource-utilization>
+        </minute>
+        <day>
+          <cpu-load-average>
+            <entry>
+              <coreid>0</coreid>
+              <value>0,0,0,0,0,0,0</value>
+            </entry>
+            <entry>
+              <coreid>1</coreid>
+              <value>0,0,0,0,0,0,0</value>
+            </entry>
+            <entry>
+              <coreid>2</coreid>
+              <value>1,1,1,1,1,1,1</value>
+            </entry>
+            <entry>
+              <coreid>3</coreid>
+              <value>0,0,0,0,0,0,0</value>
+            </entry>
+          </cpu-load-average>
+          <task/>
+          <cpu-load-maximum>
+            <entry>
+              <coreid>0</coreid>
+              <value>0,0,0,0,0,0,0</value>
+            </entry>
+            <entry>
+              <coreid>1</coreid>
+              <value>12,7,7,8,13,14,15</value>
+            </entry>
+            <entry>
+              <coreid>2</coreid>
+              <value>8,7,8,8,8,13,9</value>
+            </entry>
+            <entry>
+              <coreid>3</coreid>
+              <value>0,0,0,0,0,0,0</value>
+            </entry>
+          </cpu-load-maximum>
+          <resource-utilization>
+            <entry>
+              <name>session (average)</name>
+              <value>0,0,0,0,0,0,0</value>
+            </entry>
+            <entry>
+              <name>session (maximum)</name>
+              <value>1,0,0,1,1,0,0</value>
+            </entry>
+            <entry>
+              <name>packet buffer (average)</name>
+              <value>0,0,0,0,0,0,0</value>
+            </entry>
+            <entry>
+              <name>packet buffer (maximum)</name>
+              <value>0,0,0,0,0,0,0</value>
+            </entry>
+            <entry>
+              <name>packet descriptor (average)</name>
+              <value>0,0,0,0,0,0,0</value>
+            </entry>
+            <entry>
+              <name>packet descriptor (maximum)</name>
+              <value>0,0,0,0,0,0,0</value>
+            </entry>
+            <entry>
+              <name>packet descriptor (on-chip) (average)</name>
+              <value>2,2,2,2,2,2,2</value>
+            </entry>
+            <entry>
+              <name>packet descriptor (on-chip) (maximum)</name>
+              <value>3,3,3,7,4,3,3</value>
+            </entry>
+          </resource-utilization>
+        </day>
+      </dp0>
+    </data-processors>
+  </resource-monitor>
+</result>

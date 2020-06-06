@@ -1,0 +1,16 @@
+@import "~bulmaswatch/darkly/_variables";
+@import "variables";
+
+:export {
+    mainGradientStart: $main-gradient-start;
+    mainGradientEnd: $main-gradient-end;
+    mainGradientStartLight: $main-gradient-start-light;
+    cardGradientStart: $card-gradient-start;
+    cardGradientEnd: $card-gradient-end;
+    sequentialPalette: $sequential-palette;
+    qualitativePalette1: $qualitative-palette1;
+    qualitativePalette2: $qualitative-palette2;
+    qualitativePalette3: $qualitative-palette3;
+    fontFamily: $family-sans-serif;
+    text: $text;
+}

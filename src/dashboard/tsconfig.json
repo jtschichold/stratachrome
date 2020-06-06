@@ -1,0 +1,15 @@
+{
+    "compilerOptions": {
+        "target": "es2020",
+        "moduleResolution": "node",
+        // "strict": true,
+        "noEmit": true,
+        // "isolatedModules": true,
+        "esModuleInterop": true,
+        "allowSyntheticDefaultImports": true,
+        "jsx": "react",
+        "lib": ["es2020", "dom"],
+        "typeRoots": ["node_modules/@types", "typings"],
+        "types": ["chrome"]
+    }
+}

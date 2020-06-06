@@ -1,0 +1,71 @@
+<html>
+    <head>
+        <style>
+            body {
+                background: linear-gradient(to right, #000, #fff);
+                margin: 0;
+                margin-top: 100px;
+            }
+            .wrapper {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+
+            .container {
+                border: 1px solid green;
+                background: linear-gradient(to right, blue, yellow);
+                padding: 20px;
+            }
+
+            .container > div {
+                position: relative;
+                overflow: hidden;
+            }
+
+            .content {
+                width: 850px;
+                height: 250px;
+                background: red;
+            }
+
+            .gate {
+                height: 100%;
+                width: 850px;
+                top: 0;
+                left: 0;
+                position: absolute;
+                background: transparent;
+                display: none;
+            }
+
+            .container:hover .gate {
+                display: block;
+            }
+
+            .container:hover .wall {
+                width: 850px;
+            }
+
+            .wall {
+                background: linear-gradient(to right, blue, yellow);
+                background-size: auto 850px;
+                height: 100%;
+                width: 0px;
+                transition: width 20s ease;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="wrapper">
+            <div class="container">
+                <div>
+                    <div class="content"></div>
+                    <div class="gate">
+                        <div class="wall"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

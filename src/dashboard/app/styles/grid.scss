@@ -1,0 +1,65 @@
+.is-grid {
+    display: grid;
+
+    & > .card {
+        margin: $column-gap;
+        overflow: hidden;
+
+        & > .card-content {
+            padding: 1rem 0.75rem;
+        }
+    }
+
+    & > nav.main-grid-header {
+        margin-left: $column-gap;
+        margin-right: $column-gap;
+    }
+}
+
+.is-grid-column-2 {
+    grid-template-columns: auto $grid-column-width $grid-column-width auto;
+}
+
+.is-grid-column-2-fr {
+    grid-template-columns: auto 1fr 1fr auto;
+}
+
+.grid-col-start-1 {
+    grid-column-start: 1;
+}
+
+.grid-col-start-2 {
+    grid-column-start: 2;
+}
+
+.grid-col-start-3 {
+    grid-column-start: 3;
+}
+
+.grid-col-end-3 {
+    grid-column-end: 3;
+}
+
+.grid-col-end-4 {
+    grid-column-end: 4;
+}
+
+.grid-col-end-5 {
+    grid-column-end: 5;
+}
+
+.card.grid-col-start-2.grid-col-end-3 {
+    background: linear-gradient(
+        to right,
+        lighten($main-gradient-start, 2%),
+        lighten($main-gradient-middle, 2%)
+    );
+}
+
+.card.grid-col-start-3.grid-col-end-4 {
+    background: linear-gradient(
+        to right,
+        lighten($main-gradient-middle, 2%),
+        lighten($main-gradient-end, 2%)
+    );
+}
