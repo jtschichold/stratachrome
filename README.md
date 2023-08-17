@@ -1,3 +1,8 @@
+> [!IMPORTANT]
+> **Panwachrome is no longer supported, code is provided here because someone asked**
+>
+> This is the Panwachrome version described in the book Mastering Palo Alto Networks. For the old Panwachrome version 0.7 please check the repo: https://github.com/jtschichold/panwachrome
+
 # Panwachrome
 
 Like Panwachrome, but better.
